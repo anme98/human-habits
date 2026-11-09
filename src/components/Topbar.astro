@@ -13,7 +13,6 @@ const isCurrent = (href: string) => href === path;
   <div class="topbar-bar container">
     <div class="topbar-logo">
       <a href="/" class="body" style="color: var(--white)">{site.name}</a>
-      <p class="body muted">{site.role}</p>
     </div>
     <nav class="topbar-links" aria-label="Hauptnavigation">
       {site.nav.map((l) => <a class:list={["body-sb", { "is-current": isCurrent(l.href) }]} href={l.href} aria-current={isCurrent(l.href) ? "page" : undefined}>{l.label}</a>)}
