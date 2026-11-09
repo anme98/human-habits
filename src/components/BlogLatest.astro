@@ -1,0 +1,70 @@
+---
+import BlogCard from "./BlogCard.astro";
+import { getBlogPosts } from "../content/blog";
+
+const posts = getBlogPosts().slice(0, 4);
+---
+<section class="blog-latest" aria-labelledby="blog-latest-title">
+  <div class="blog-latest-heading">
+    <div>
+      <p class="body muted">Ideen für deinen Alltag</p>
+      <h2 id="blog-latest-title" class="h2">Aus dem Blog</h2>
+    </div>
+    <a class="body-sb blog-latest-all" href="/blog/">Alle Beiträge <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="blog-latest-grid">
+    {posts.map((post) => <BlogCard post={post} />)}
+  </div>
+</section>
+
+<style>
+  .blog-latest {
+    padding: 120px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background: var(--black);
+  }
+
+  .blog-latest-heading {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+  }
+
+  .blog-latest-heading > div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .blog-latest-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .blog-latest-grid {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  @media (max-width: 1199px) {
+    .blog-latest { padding: 100px 20px; }
+  }
+
+  @media (max-width: 809px) {
+    .blog-latest { padding: 80px 20px; gap: 32px; }
+    .blog-latest-heading { align-items: flex-start; flex-direction: column; }
+    .blog-latest-grid { grid-template-columns: 1fr; }
+  }
+</style>
