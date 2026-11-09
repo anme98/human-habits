@@ -9,16 +9,16 @@ const FADE =
   <div class="footer-fade" aria-hidden="true" style={`background: ${FADE}`}></div>
   <div class="footer-top container">
     <div class="footer-email">
-      <p class="body">Small actions add up.</p>
+      <p class="body">Kleine Schritte machen den Unterschied.</p>
       <div class="footer-available">
         <span class="footer-dot" aria-hidden="true"></span>
-        <p class="body">Start where you are.</p>
+        <p class="body">Fang dort an, wo du gerade stehst.</p>
       </div>
     </div>
     <div class="footer-col footer-social">
       {site.socials.map((s) => <a class="body" href={s.href} target="_blank" rel="noreferrer">{s.label}</a>)}
     </div>
-    <nav class="footer-col footer-nav" aria-label="Footer">
+    <nav class="footer-col footer-nav" aria-label="Fußzeile">
       {site.footerNav.map((l) => <a class="body" href={l.href}>{l.label}</a>)}
     </nav>
   </div>
@@ -27,6 +27,6 @@ const FADE =
     <p style="font-weight: 700; line-height: 1em">{site.name}</p>
   </div>
   <div class="footer-bottom container">
-    <p class="caption"><span class="muted">© {site.year} {site.name}. All rights reserved.</span></p>
+    <p class="caption"><span class="muted">© {site.year} {site.name}. Alle Rechte vorbehalten.</span></p>
   </div>
 </footer>

@@ -2,7 +2,7 @@
 // Submit button carries the Framer Submit Button states (Default / Loading
 // with a spinning arrow / Success with a green arrow / Error). No backend: the
 // demo submission resolves to Success after 1.2s. Wire your form service here.
-const LABEL = { idle: "Send Message", loading: "Sending…", success: "Thank you", error: "Something went wrong" } as const;
+const LABEL = { idle: "Nachricht senden", loading: "Wird gesendet …", success: "Vielen Dank", error: "Etwas ist schiefgelaufen" } as const;
 document.querySelectorAll<HTMLFormElement>("[data-contact-form]").forEach((form) => {
   const btn = form.querySelector<HTMLButtonElement>(".submit")!;
   const label = btn.querySelector<HTMLElement>("[data-label]")!;

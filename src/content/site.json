@@ -1,69 +1,69 @@
 {
   "name": "Human Habits",
-  "role": "Small actions. Lasting change.",
-  "tagline": "Build routines that fit real life. Start small, make the next step easier, and keep showing up.",
+  "role": "Kleine Schritte. Nachhaltige Veränderung.",
+  "tagline": "Entwickle Gewohnheiten, die in deinen Alltag passen. Fang klein an, mach den nächsten Schritt leichter und bleib dran.",
   "email": "",
   "year": "2026",
   "nav": [
-    { "label": "Home", "href": "/" },
-    { "label": "Pillars", "href": "/#work" },
-    { "label": "About", "href": "/#about-alt" }
+    { "label": "Startseite", "href": "/" },
+    { "label": "Säulen", "href": "/#work" },
+    { "label": "Über Human Habits", "href": "/#about-alt" }
   ],
   "footerNav": [
-    { "label": "The five pillars", "href": "/#work" },
-    { "label": "How to begin", "href": "/#servicesScroll" },
-    { "label": "About", "href": "/#about-alt" }
+    { "label": "Die fünf Säulen", "href": "/#work" },
+    { "label": "So fängst du an", "href": "/#servicesScroll" },
+    { "label": "Über Human Habits", "href": "/#about-alt" }
   ],
   "socials": [],
   "about": {
-    "statement": "The habits you practice can become evidence of the person you are choosing to be.",
-    "bio": "Human Habits is a practical guide to building routines that support the life you want. It brings together five useful ideas: identity, cues, small actions, a supportive environment, and reflection.",
-    "method": "There is no perfect streak or one-size-fits-all routine here. Begin with one meaningful action, make it easy to start, and use what you learn to shape the next step."
+    "statement": "Die Gewohnheiten, die du pflegst, zeigen, wer du sein möchtest.",
+    "bio": "Human Habits ist ein praktischer Leitfaden für Gewohnheiten, die dich auf deinem Weg unterstützen. Im Mittelpunkt stehen fünf hilfreiche Ansätze: Identität, Auslöser, kleine Schritte, ein unterstützendes Umfeld und Reflexion.",
+    "method": "Es geht weder um perfekte Serien noch um Routinen, die für alle gleich funktionieren. Fang mit einer Handlung an, die dir wichtig ist, mach den Einstieg leicht und nutze deine Erfahrungen für den nächsten Schritt."
   },
   "habitLoop": [
-    { "number": "01", "title": "Act from identity", "description": "Choose a habit that reflects the kind of person you want to become, then let each small action reinforce that direction.", "cover": "/assets/award-pace.webp", "alt": "A woman exercising on a treadmill" },
-    { "number": "02", "title": "Use clear cues", "description": "Make the moment to act visible and specific. Link a new behavior to a place, time, or routine you already notice.", "cover": "/assets/award-halo.webp", "alt": "A person practicing a mindful seated pose" },
-    { "number": "03", "title": "Start with a small action", "description": "Lower the first step until it feels possible on an ordinary day. Repetition can grow from a manageable beginning.", "cover": "/assets/award-orbit.webp", "alt": "A person setting out a yoga mat and exercise equipment" },
-    { "number": "04", "title": "Shape your environment", "description": "Reduce friction for the habits you want to practice and add distance from the behaviors you want to do less often.", "cover": "/assets/award-lumen.webp", "alt": "A runner checking a fitness watch" },
-    { "number": "05", "title": "Track and reflect", "description": "Notice what you did and what made it easier or harder. Use that information to adjust your next step without judgment.", "cover": "/assets/award-fauna.webp", "alt": "Two people stretching in a sunlit studio" }
+    { "number": "01", "title": "Aus deiner Identität handeln", "description": "Wähle eine Gewohnheit, die zu dem Menschen passt, der du sein möchtest. Jede kleine Handlung bringt dich ein Stück in diese Richtung.", "cover": "/assets/award-pace.webp", "alt": "Eine Frau trainiert auf einem Laufband" },
+    { "number": "02", "title": "Klare Auslöser nutzen", "description": "Mach den Moment zum Handeln sichtbar und konkret. Verknüpfe das neue Verhalten mit einem Ort, einer Uhrzeit oder einer Routine, die du bereits kennst.", "cover": "/assets/award-halo.webp", "alt": "Eine Person sitzt in einer achtsamen Yoga-Pose" },
+    { "number": "03", "title": "Mit kleinen Schritten anfangen", "description": "Mach den ersten Schritt so klein, dass er auch an einem ganz normalen Tag möglich ist. Aus einem machbaren Anfang kann durch Wiederholung mehr entstehen.", "cover": "/assets/award-orbit.webp", "alt": "Eine Person legt eine Yogamatte und Trainingsgeräte bereit" },
+    { "number": "04", "title": "Dein Umfeld gestalten", "description": "Mach es dir leichter, gewünschte Gewohnheiten umzusetzen, und erschwere Verhaltensweisen, die du seltener zeigen möchtest.", "cover": "/assets/award-lumen.webp", "alt": "Eine Läuferin prüft ihre Sportuhr" },
+    { "number": "05", "title": "Beobachten und reflektieren", "description": "Achte darauf, was du getan hast und was es leichter oder schwerer gemacht hat. Nutze diese Erkenntnisse für den nächsten Schritt – ohne dich zu verurteilen.", "cover": "/assets/award-fauna.webp", "alt": "Zwei Personen dehnen sich in einem lichtdurchfluteten Studio" }
   ],
   "principles": [
-    { "title": "Build identity through action", "description": "Start with a behavior that feels connected to who you want to be. Small, repeated choices make that identity tangible.", "icon": "target", "image": "/assets/principle-1.webp", "alt": "A woman exercising on a treadmill" },
-    { "title": "Make cues visible", "description": "Use an existing routine, a time, or a place as a clear reminder to begin.", "icon": "sparkles", "image": "/assets/principle-2.webp", "alt": "A person beside a mat and exercise equipment" },
-    { "title": "Lower the starting effort", "description": "Make the first action small enough to fit a normal day, not just an unusually easy one.", "icon": "smile", "image": "/assets/principle-3.webp", "alt": "A runner checking a fitness watch" },
-    { "title": "Learn from what happens", "description": "Reflect on the environment, barriers, and progress. Change your setup instead of blaming yourself.", "icon": "compass", "image": "/assets/principle-4.webp", "alt": "A person stretching on a mat" }
+    { "title": "Identität durch Handeln stärken", "description": "Beginne mit einem Verhalten, das zu dem Menschen passt, der du sein möchtest. Kleine, wiederholte Entscheidungen machen diese Identität greifbar.", "icon": "target", "image": "/assets/principle-1.webp", "alt": "Eine Frau trainiert auf einem Laufband" },
+    { "title": "Auslöser sichtbar machen", "description": "Nutze eine bestehende Routine, eine Uhrzeit oder einen Ort als klare Erinnerung, anzufangen.", "icon": "sparkles", "image": "/assets/principle-2.webp", "alt": "Eine Person steht neben einer Matte und Trainingsgeräten" },
+    { "title": "Den Einstieg erleichtern", "description": "Mach den ersten Schritt so klein, dass er auch an einem gewöhnlichen Tag hineinpasst.", "icon": "smile", "image": "/assets/principle-3.webp", "alt": "Eine Läuferin prüft ihre Sportuhr" },
+    { "title": "Aus Erfahrungen lernen", "description": "Reflektiere über dein Umfeld, Hindernisse und Fortschritte. Verändere die Bedingungen, statt dir selbst Vorwürfe zu machen.", "icon": "compass", "image": "/assets/principle-4.webp", "alt": "Eine Person dehnt sich auf einer Matte" }
   ],
-  "ticker": "SMALL ACTIONS · STEADY PRACTICE · ROOM TO BEGIN AGAIN",
+  "ticker": "KLEINE SCHRITTE · REGELMÄSSIG ÜBEN · IMMER WIEDER ANFANGEN",
   "services": [
-    { "name": "Choose an identity", "image": "/assets/orbit-5.webp", "alt": "A person practicing a mindful seated pose", "captions": ["Name who you want to become", "Choose one meaningful behavior", "Begin with what you can do"] },
-    { "name": "Add a clear cue", "image": "/assets/orbit-8.webp", "alt": "A person leaning into a forward stretch on a mat", "captions": ["Choose a reliable moment", "Link it to a routine", "Make the reminder visible"] },
-    { "name": "Make the action small", "image": "/assets/orbit-4.webp", "alt": "A person beside a mat and exercise equipment", "captions": ["Prepare what you need", "Reduce extra steps", "Lower the first step"] },
-    { "name": "Reflect and adjust", "image": "/assets/orbit-3.webp", "alt": "A runner checking a fitness watch", "captions": ["Notice when it happened", "Spot what helped or got in the way", "Adapt the environment"] }
+    { "name": "Identität wählen", "image": "/assets/orbit-5.webp", "alt": "Eine Person sitzt in einer achtsamen Yoga-Pose", "captions": ["Finde heraus, wer du sein möchtest", "Wähle ein Verhalten, das dir wichtig ist", "Beginne mit dem, was heute möglich ist"] },
+    { "name": "Einen Auslöser setzen", "image": "/assets/orbit-8.webp", "alt": "Eine Person beugt sich auf einer Matte nach vorn", "captions": ["Wähle einen verlässlichen Moment", "Verknüpfe die Handlung mit einer Routine", "Mach die Erinnerung sichtbar"] },
+    { "name": "Klein anfangen", "image": "/assets/orbit-4.webp", "alt": "Eine Person steht neben einer Matte und Trainingsgeräten", "captions": ["Lege alles Nötige bereit", "Spare dir überflüssige Schritte", "Mach den Einstieg leichter"] },
+    { "name": "Reflektieren und anpassen", "image": "/assets/orbit-3.webp", "alt": "Eine Läuferin prüft ihre Sportuhr", "captions": ["Achte darauf, wann es geklappt hat", "Erkenne, was geholfen oder gestört hat", "Passe dein Umfeld an"] }
   ],
   "gallery": {
-    "heading": "Build a routine that reflects who you want to be — ",
-    "headingMuted": "one small action at a time",
+    "heading": "Gestalte eine Routine, die zu dir passt – ",
+    "headingMuted": "mit jedem kleinen Schritt",
     "images": [
-      { "src": "/assets/orbit-1.webp", "alt": "A woman exercising on a treadmill" },
-      { "src": "/assets/orbit-2.webp", "alt": "A person sitting quietly on a yoga mat" },
-      { "src": "/assets/orbit-3.webp", "alt": "A runner checking a fitness watch after exercising" },
-      { "src": "/assets/orbit-4.webp", "alt": "A person beside a mat and exercise equipment" },
-      { "src": "/assets/orbit-5.webp", "alt": "A person practicing a mindful seated pose" },
-      { "src": "/assets/orbit-6.webp", "alt": "A person leaning into a forward stretch on a mat" },
-      { "src": "/assets/orbit-7.webp", "alt": "Two people stretching in a sunlit studio" },
-      { "src": "/assets/orbit-8.webp", "alt": "A person leaning into a forward stretch on a mat" },
-      { "src": "/assets/orbit-9.webp", "alt": "A person sitting quietly on a yoga mat" },
-      { "src": "/assets/orbit-10.webp", "alt": "A person beside a mat and exercise equipment" },
-      { "src": "/assets/orbit-11.webp", "alt": "A runner checking a fitness watch" },
-      { "src": "/assets/orbit-12.webp", "alt": "A person practicing a mindful seated pose" }
+      { "src": "/assets/orbit-1.webp", "alt": "Eine Frau trainiert auf einem Laufband" },
+      { "src": "/assets/orbit-2.webp", "alt": "Eine Person sitzt ruhig auf einer Yogamatte" },
+      { "src": "/assets/orbit-3.webp", "alt": "Eine Läuferin prüft nach dem Training ihre Sportuhr" },
+      { "src": "/assets/orbit-4.webp", "alt": "Eine Person steht neben einer Matte und Trainingsgeräten" },
+      { "src": "/assets/orbit-5.webp", "alt": "Eine Person sitzt in einer achtsamen Yoga-Pose" },
+      { "src": "/assets/orbit-6.webp", "alt": "Eine Person beugt sich auf einer Matte nach vorn" },
+      { "src": "/assets/orbit-7.webp", "alt": "Zwei Personen dehnen sich in einem lichtdurchfluteten Studio" },
+      { "src": "/assets/orbit-8.webp", "alt": "Eine Person beugt sich auf einer Matte nach vorn" },
+      { "src": "/assets/orbit-9.webp", "alt": "Eine Person sitzt ruhig auf einer Yogamatte" },
+      { "src": "/assets/orbit-10.webp", "alt": "Eine Person steht neben einer Matte und Trainingsgeräten" },
+      { "src": "/assets/orbit-11.webp", "alt": "Eine Läuferin prüft ihre Sportuhr" },
+      { "src": "/assets/orbit-12.webp", "alt": "Eine Person sitzt in einer achtsamen Yoga-Pose" }
     ]
   },
   "faq": [
-    { "q": "How long does it take to build a habit?", "a": "There is no fixed number of days that works for everyone. Repetition in a stable context can make an action feel more automatic over time, but the pace varies with the person, the behavior, and the circumstances." },
-    { "q": "What if I miss a day?", "a": "A missed day does not erase your progress. Notice what made the routine difficult, then choose the next realistic opportunity to return. You do not need to compensate or punish yourself." },
-    { "q": "Should I start with several habits at once?", "a": "If you are unsure, begin with one small action. A narrow focus makes it easier to find a useful cue, reduce friction, and learn what fits your day before adding more." },
-    { "q": "What if I do not feel motivated?", "a": "Motivation changes. Make the action smaller, prepare your environment, or link it to something you already do. The goal is not to force yourself; it is to make starting more workable." },
-    { "q": "Are these ideas a substitute for professional care?", "a": "No. These are general educational ideas for everyday routines, not medical or mental-health advice. If a habit or health concern is affecting you, consider speaking with a qualified professional." }
+    { "q": "Wie lange dauert es, eine Gewohnheit aufzubauen?", "a": "Eine feste Anzahl von Tagen gibt es nicht. Wenn du eine Handlung in einem gleichbleibenden Zusammenhang wiederholst, kann sie mit der Zeit selbstverständlicher werden. Wie schnell das geht, hängt von der Person, dem Verhalten und den Umständen ab." },
+    { "q": "Was, wenn ich einen Tag auslasse?", "a": "Ein ausgelassener Tag macht deinen bisherigen Fortschritt nicht zunichte. Überlege, was die Routine erschwert hat, und nutze die nächste passende Gelegenheit für einen Neustart. Du musst nichts nachholen und dich nicht dafür bestrafen." },
+    { "q": "Sollte ich mehrere Gewohnheiten gleichzeitig anfangen?", "a": "Wenn du unsicher bist, beginne mit einer kleinen Handlung. So findest du leichter einen passenden Auslöser, verringerst Hindernisse und lernst, was in deinen Alltag passt, bevor du mehr hinzunimmst." },
+    { "q": "Was, wenn mir die Motivation fehlt?", "a": "Motivation schwankt. Mach die Handlung kleiner, bereite dein Umfeld vor oder verknüpfe sie mit etwas, das du ohnehin tust. Es geht nicht darum, dich zu zwingen, sondern den Anfang leichter zu machen." },
+    { "q": "Ersetzen diese Tipps eine professionelle Beratung?", "a": "Nein. Dies sind allgemeine Anregungen für alltägliche Routinen, keine medizinische oder psychologische Beratung. Wenn dich eine Gewohnheit oder ein gesundheitliches Anliegen belastet, wende dich an eine qualifizierte Fachperson." }
   ],
   "ring": ["/assets/ring-1.webp", "/assets/ring-2.webp", "/assets/ring-3.webp", "/assets/ring-4.webp", "/assets/ring-5.webp", "/assets/ring-6.webp", "/assets/ring-7.webp"]
 }

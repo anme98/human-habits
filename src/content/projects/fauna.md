@@ -1,28 +1,28 @@
 ---
-title: "Shape your environment"
-category: "Pillar 4 · Environment & friction"
+title: "Dein Umfeld gestalten"
+category: "Säule 4 · Umfeld und Hürden"
 order: 4
-pillar: "Environment & friction"
-principle: "Make helpful actions easier to begin in the places you live."
-practice: "Prepare what you need and remove one unnecessary obstacle."
-overview: "The spaces around you can make a behavior easier to notice and start. Small changes to what is visible, accessible, or ready can reduce friction without relying on willpower alone."
-challenge: "If a useful habit takes too many steps to set up, it may be hard to fit into everyday life. Adjust the environment so the next action is easier to take."
+pillar: "Umfeld und Hürden"
+principle: "Mach hilfreiche Handlungen dort leichter, wo du lebst."
+practice: "Lege alles Nötige bereit und beseitige ein Hindernis."
+overview: "Die Räume um dich herum können es leichter machen, ein Verhalten wahrzunehmen und anzufangen. Kleine Veränderungen daran, was sichtbar, erreichbar oder vorbereitet ist, senken Hürden – ganz ohne allein auf Willenskraft zu setzen."
+challenge: "Wenn der Vorbereitungsschritt zu einer sinnvollen Gewohnheit umständlich ist, lässt sie sich nur schwer in den Alltag einbauen. Gestalte dein Umfeld so, dass der nächste Schritt leichter fällt."
 cover: /assets/project-fauna-cover.webp
-coverAlt: "Two people stretching in a sunlit studio"
+coverAlt: "Zwei Personen dehnen sich in einem sonnigen Studio"
 showcase: /assets/project-fauna-showcase.webp
-showcaseAlt: "A person leaning into a forward stretch on a mat"
+showcaseAlt: "Eine Person beugt sich auf einer Matte nach vorn"
 heroImage: /assets/hero-fauna.webp
-heroAlt: "Two people stretching in a sunlit studio"
+heroAlt: "Zwei Personen dehnen sich in einem sonnigen Studio"
 ---
 
-### Arrange the space for the action
+### Bereite den Raum für die Handlung vor
 
-Put a helpful reminder where you will see it, keep the materials you need together, or prepare the first step ahead of time. Make the path from cue to action a little shorter.
+Platziere eine hilfreiche Erinnerung dort, wo du sie sehen wirst. Bewahre benötigte Dinge zusammen auf oder bereite den ersten Schritt vor. So wird der Weg vom Auslöser zur Handlung ein wenig kürzer.
 
-### Notice friction without blame
+### Erkenne Hindernisse – ohne dir Vorwürfe zu machen
 
-If you keep getting stuck, look for the obstacle in the setup: an item is hard to find, the timing is inconvenient, or the action requires more preparation than expected. Treat that as information about the environment.
+Wenn du immer wieder ins Stocken gerätst, schau dir die Bedingungen an: Ist ein Gegenstand schwer zu finden? Passt der Zeitpunkt nicht? Braucht die Handlung mehr Vorbereitung als gedacht? Sieh das als Hinweis auf dein Umfeld.
 
-### Change one thing at a time
+### Verändere immer nur eine Sache
 
-Try a small adjustment and see whether it helps. A supportive space does not need to be perfect; it just needs to make the next useful action more available.
+Probiere eine kleine Anpassung aus und beobachte, ob sie hilft. Ein unterstützendes Umfeld muss nicht perfekt sein – es sollte dir lediglich die nächste hilfreiche Handlung erleichtern.

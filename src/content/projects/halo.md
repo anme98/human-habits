@@ -1,32 +1,32 @@
 ---
-title: "Design a clear cue"
-category: "Pillar 2 · Cues & triggers"
+title: "Klare Auslöser finden"
+category: "Säule 2 · Auslöser"
 order: 2
-pillar: "Cues & triggers"
-principle: "Connect the action to a moment you already notice."
-practice: "Pair the habit with an existing routine or clear reminder."
-overview: "A cue is the signal that helps you remember to act. A specific time, place, event, or existing routine can turn a general intention into a clear opportunity."
-challenge: "A plan like “I will do this more often” leaves the moment undefined. Choose a reliable prompt that is visible in the context where the behavior can happen."
+pillar: "Auslöser"
+principle: "Verknüpfe die Handlung mit einem Moment, den du ohnehin wahrnimmst."
+practice: "Verbinde die Gewohnheit mit einer bestehenden Routine oder einer klaren Erinnerung."
+overview: "Ein Auslöser erinnert dich daran, ins Handeln zu kommen. Eine bestimmte Uhrzeit, ein Ort, ein Ereignis oder eine vertraute Routine kann aus einer vagen Absicht eine konkrete Gelegenheit machen."
+challenge: "Ein Vorsatz wie „Das möchte ich öfter machen“ lässt offen, wann es so weit ist. Wähle einen verlässlichen Hinweis, der in dem Moment sichtbar ist, in dem du handeln kannst."
 cover: /assets/project-halo-cover.webp
-coverAlt: "A person practicing a mindful seated pose"
+coverAlt: "Eine Person sitzt in einer achtsamen Yoga-Pose"
 showcase: /assets/project-halo-showcase.webp
-showcaseAlt: "A person sitting quietly on a yoga mat"
+showcaseAlt: "Eine Person sitzt ruhig auf einer Yogamatte"
 heroImage: /assets/hero-halo.webp
-heroAlt: "A person sitting quietly in a mindful pose"
+heroAlt: "Eine Person sitzt ruhig in einer achtsamen Pose"
 ---
 
-### Name the moment
+### Bestimme den Moment
 
-Choose when and where the action could happen. A cue works best when it is specific enough to notice and connected to a place where you can take the next step.
+Lege fest, wann und wo du handeln möchtest. Ein Auslöser funktioniert am besten, wenn er konkret genug ist, um dir aufzufallen, und dich an einen Ort führt, an dem du den nächsten Schritt gehen kannst.
 
-### Link it to something familiar
+### Verknüpfe ihn mit etwas Vertrautem
 
-Try: **After I [routine I already do], I will [small new action].**
+Probiere es mit diesem Muster: **Nachdem ich [bestehende Routine] erledigt habe, werde ich [kleine neue Handlung] tun.**
 
-- After I make coffee, I will fill a glass of water.
-- After I put my keys down, I will take a short stretch.
-- After I finish lunch, I will step outside for a few minutes.
+- Nachdem ich Kaffee gekocht habe, fülle ich ein Glas Wasser.
+- Nachdem ich meine Schlüssel abgelegt habe, dehne ich mich kurz.
+- Nachdem ich zu Mittag gegessen habe, gehe ich für ein paar Minuten nach draußen.
 
-### Test and adjust the cue
+### Probiere den Auslöser aus und passe ihn an
 
-If you keep overlooking the prompt, it may be too easy to miss or attached to an unpredictable moment. Try a more visible reminder or another part of your day.
+Wenn du den Hinweis immer wieder übersiehst, ist er vielleicht zu unauffällig oder an einen unvorhersehbaren Moment geknüpft. Wähle eine deutlichere Erinnerung oder einen anderen Zeitpunkt am Tag.
