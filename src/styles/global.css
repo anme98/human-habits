@@ -82,6 +82,10 @@ button { font: inherit; }
 @media (hover: hover) and (pointer: fine) { .topbar-links a { transition: color 0.2s ease; } .topbar-links a:hover { color: var(--white); } }
 
 /* ---------- Hero ---------- */
+.home-intro { display: flex; flex-direction: column; gap: 20px; padding: 120px 20px 64px; }
+.home-intro-heading { max-width: 820px; }
+.home-intro-copy { max-width: 720px; }
+@media (max-width: 809px) { .home-intro { gap: 16px; padding: 96px 20px 48px; } }
 .hero { position: relative; display: flex; flex-direction: column; overflow: clip; }
 .hero-stage { width: 100%; position: relative; overflow: clip; display: flex; justify-content: center; align-items: flex-end; gap: 10px; }
 .hero-bottom { position: sticky; bottom: 0; z-index: 9; width: 100%; background: var(--black); padding: 20px; display: flex; justify-content: space-between; align-items: center; }
