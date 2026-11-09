@@ -11,6 +11,14 @@ const slides = projects.map((p) => ({
   title: p.data.title,
   link: `/projects/${p.id}`,
 }));
+const titleParts = (title: string) => {
+  let start = 0;
+  return title.split(/(\s+)/).map((text) => {
+    const part = { text, start };
+    start += text.length;
+    return part;
+  });
+};
 const n = slides.length;
 ---
 <section id="hero" class="hero container">
@@ -25,9 +33,15 @@ const n = slides.length;
                 <a class="pc-ref-link" href={s.link} aria-label={`${s.title} öffnen`}>
                   <span class="pc-ref-ltr pc-cat">{s.category}</span>
                   <h2 class="pc-title">
-                    {s.title.split("").map((ch, li) => (
-                      <span class="pc-ref-ltr" style={`transition-delay: ${(0.12 + li * 0.03).toFixed(2)}s`}>{ch}</span>
-                    ))}
+                    {titleParts(s.title).map(({ text, start }) =>
+                      text.trim() ? (
+                        <span class="pc-title-word">
+                          {text.split("").map((ch, li) => (
+                            <span class="pc-ref-ltr" style={`transition-delay: ${(0.12 + (start + li) * 0.03).toFixed(2)}s`}>{ch}</span>
+                          ))}
+                        </span>
+                      ) : text
+                    )}
                   </h2>
                   <span class="pc-ref-btn" aria-hidden="true"><Icon name="carousel-arrow" size={22} /></span>
                 </a>
@@ -51,7 +65,13 @@ const n = slides.length;
               <div class="pc-center">
                 <a class="pc-ref-link" href={s.link} aria-label={`${s.title} öffnen`}>
                   <span class="pc-ref-ltr pc-cat">{s.category}</span>
-                  <h2 class="pc-title">{s.title.split("").map((ch) => <span class="pc-ref-ltr">{ch}</span>)}</h2>
+                  <h2 class="pc-title">
+                    {titleParts(s.title).map(({ text }) =>
+                      text.trim() ? (
+                        <span class="pc-title-word">{text.split("").map((ch) => <span class="pc-ref-ltr">{ch}</span>)}</span>
+                      ) : text
+                    )}
+                  </h2>
                   <span class="pc-ref-btn" aria-hidden="true"><Icon name="carousel-arrow" size={22} /></span>
                 </a>
               </div>
