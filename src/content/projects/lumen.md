@@ -1,28 +1,28 @@
 ---
-title: "Track, reflect, adjust"
-category: "Pillar 5 · Tracking & reflection"
+title: "Beobachten und anpassen"
+category: "Säule 5 · Beobachtung und Reflexion"
 order: 5
-pillar: "Tracking & reflection"
-principle: "Use observations to learn, not to judge yourself."
-practice: "Record the action and what helped or got in the way."
-overview: "Lightweight tracking can help you notice patterns in your routine. Reflect on when the action happened, what made it easier, and where a change might help."
-challenge: "A tracker can become discouraging when it turns into a score or a demand for a perfect streak. Keep the record simple and use it to make the next attempt more workable."
+pillar: "Beobachtung und Reflexion"
+principle: "Nutze deine Beobachtungen zum Lernen, nicht zur Selbstkritik."
+practice: "Notiere die Handlung und was sie erleichtert oder erschwert hat."
+overview: "Mit einfachen Notizen erkennst du Muster in deiner Routine. Überlege, wann die Handlung stattgefunden hat, was sie leichter machte und welche Veränderung hilfreich sein könnte."
+challenge: "Eine Übersicht kann entmutigen, wenn sie zur Bewertung oder zur Forderung nach einer perfekten Serie wird. Halte deine Notizen einfach und nutze sie, um den nächsten Versuch alltagstauglicher zu gestalten."
 cover: /assets/project-lumen-cover.webp
-coverAlt: "A person stretching during a mindful routine"
+coverAlt: "Eine Person dehnt sich während einer achtsamen Routine"
 showcase: /assets/project-lumen-showcase.webp
-showcaseAlt: "A person stretching on a yoga mat"
+showcaseAlt: "Eine Person dehnt sich auf einer Yogamatte"
 heroImage: /assets/hero-lumen.webp
-heroAlt: "A person stretching on a yoga mat"
+heroAlt: "Eine Person dehnt sich auf einer Yogamatte"
 ---
 
-### Record what matters to you
+### Halte fest, was für dich wichtig ist
 
-Choose an easy way to note when you practiced: a check mark, short note, or calendar reminder. Track the behavior you want to understand, not every detail of your life.
+Finde eine einfache Möglichkeit, deine Übung festzuhalten: ein Häkchen, eine kurze Notiz oder ein Kalendereintrag. Beobachte das Verhalten, das du besser verstehen möchtest – nicht jedes Detail deines Lebens.
 
-### Reflect with curiosity
+### Reflektiere mit Neugier
 
-Every so often, ask what helped the habit happen and what made it harder. Look for useful patterns in cues, timing, your environment, and the size of the action.
+Frage dich ab und zu, was zur Umsetzung beigetragen und was sie erschwert hat. Achte auf hilfreiche Muster bei Auslösern, Zeitpunkt, Umfeld und Umfang der Handlung.
 
-### Make the next adjustment small
+### Verändere als Nächstes nur eine Kleinigkeit
 
-Use what you notice to test one change. Move the cue, prepare the space, or shrink the first step. If tracking feels like pressure, simplify it or take a break.
+Nutze deine Beobachtungen, um eine Veränderung auszuprobieren. Verlege den Auslöser, bereite den Raum vor oder verkleinere den ersten Schritt. Wenn dich das Festhalten unter Druck setzt, vereinfache es oder leg eine Pause ein.

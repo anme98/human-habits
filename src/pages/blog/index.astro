@@ -1,0 +1,63 @@
+---
+import Base from "../../layouts/Base.astro";
+import Topbar from "../../components/Topbar.astro";
+import Footer from "../../components/sections/Footer.astro";
+import BlogCard from "../../components/BlogCard.astro";
+import { getBlogPosts } from "../../content/blog";
+import { site } from "../../lib/site";
+
+const posts = getBlogPosts();
+const description = "Artikel und praktische Impulse für Gewohnheiten, die zu deinem Alltag passen.";
+---
+<Base title={`Blog | ${site.name}`} description={description}>
+  <Topbar path="/blog" />
+  <main class="blog-page">
+    <header class="blog-heading">
+      <p class="body muted">Human Habits · Impulse für deinen Alltag</p>
+      <h1 class="h1">Der Blog</h1>
+      <p class="body blog-intro">{description} Entdecke Ideen zu kleinen Schritten, klaren Auslösern, einer unterstützenden Umgebung und persönlicher Entwicklung.</p>
+    </header>
+    <section class="blog-grid" aria-label="Alle Blogbeiträge">
+      {posts.map((post) => <BlogCard post={post} />)}
+    </section>
+  </main>
+  <Footer />
+</Base>
+
+<style>
+  .blog-page {
+    padding: 64px 20px 140px;
+  }
+
+  .blog-heading,
+  .blog-grid {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+
+  .blog-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 56px 0 72px;
+  }
+
+  .blog-intro {
+    max-width: 660px;
+    color: var(--white-60);
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  @media (max-width: 809px) {
+    .blog-page { padding: 40px 20px 96px; }
+    .blog-heading { gap: 18px; padding: 40px 0 48px; }
+    .blog-grid { grid-template-columns: 1fr; }
+  }
+</style>

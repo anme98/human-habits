@@ -1,0 +1,115 @@
+---
+import type { BlogPost } from "../content/blog";
+import { formatBlogDate } from "../content/blog";
+
+interface Props {
+  post: BlogPost;
+}
+
+const { post } = Astro.props;
+---
+<article class="blog-article">
+  <header class="blog-article-header">
+    <a class="caption blog-back" href="/blog/">← Zum Blog</a>
+    <p class="body blog-article-pillar">{post.pillar}</p>
+    <h1 class="h1 blog-article-title">{post.title}</h1>
+    <p class="body blog-article-excerpt">{post.excerpt}</p>
+    <div class="caption blog-article-meta">
+      <time datetime={post.publishedAt}>{formatBlogDate(post.publishedAt)}</time>
+      <span>{post.readingTime} Min. Lesezeit</span>
+    </div>
+  </header>
+  <div class="blog-article-content">
+    {post.sections.map((section) => (
+      <section class="blog-article-section">
+        <h2 class="h3">{section.heading}</h2>
+        {section.paragraphs.map((paragraph) => <p class="body">{paragraph}</p>)}
+      </section>
+    ))}
+    <a class="caption blog-back blog-back-bottom" href="/blog/">← Alle Beiträge ansehen</a>
+  </div>
+</article>
+
+<style>
+  .blog-article {
+    padding: 80px 20px 140px;
+  }
+
+  .blog-article-header,
+  .blog-article-content {
+    width: 100%;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  .blog-article-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 0 64px;
+    border-bottom: 1px solid var(--white-20);
+  }
+
+  .blog-back {
+    color: var(--white-60);
+  }
+
+  .blog-article-pillar {
+    color: var(--white-60);
+  }
+
+  .blog-article-title {
+    max-width: 800px;
+    text-wrap: balance;
+  }
+
+  .blog-article-excerpt {
+    max-width: 680px;
+    color: var(--white-60);
+  }
+
+  .blog-article-meta {
+    display: flex;
+    gap: 20px;
+    color: var(--white-60);
+  }
+
+  .blog-article-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 64px;
+  }
+
+  .blog-article-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .blog-article-section h2 {
+    color: var(--white);
+  }
+
+  .blog-article-section p {
+    max-width: 720px;
+  }
+
+  .blog-back-bottom {
+    margin-top: 16px;
+    width: fit-content;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .blog-back:hover { color: var(--white); }
+  }
+
+  @media (max-width: 809px) {
+    .blog-article { padding: 56px 20px 96px; }
+    .blog-article-header { gap: 18px; padding: 20px 0 40px; }
+    .blog-article-content { gap: 36px; padding-top: 40px; }
+    .blog-article-meta { flex-direction: column; gap: 6px; }
+  }
+</style>

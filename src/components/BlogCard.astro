@@ -1,0 +1,88 @@
+---
+import type { BlogPost } from "../content/blog";
+import { formatBlogDate } from "../content/blog";
+
+interface Props {
+  post: BlogPost;
+}
+
+const { post } = Astro.props;
+---
+<article class="blog-card">
+  <a class="blog-card-link" href={`/blog/${post.slug}`} aria-label={`Artikel lesen: ${post.title}`}>
+    <div class="blog-card-meta">
+      <span class="caption">{post.pillar}</span>
+      <span class="caption">{formatBlogDate(post.publishedAt)}</span>
+    </div>
+    <h2 class="h4 blog-card-title">{post.title}</h2>
+    <p class="body blog-card-excerpt">{post.excerpt}</p>
+    <span class="caption blog-card-read">{post.readingTime} Min. Lesezeit <span aria-hidden="true">↗</span></span>
+  </a>
+</article>
+
+<style>
+  .blog-card {
+    min-height: 260px;
+    border: 1px solid var(--white-20);
+    border-radius: 8px;
+    transition: background-color 0.25s ease, border-color 0.25s ease;
+  }
+
+  .blog-card-link {
+    height: 100%;
+    min-height: inherit;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .blog-card-meta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--white-60);
+  }
+
+  .blog-card-meta .caption:last-child {
+    text-align: right;
+  }
+
+  .blog-card-title {
+    max-width: 440px;
+  }
+
+  .blog-card-excerpt {
+    max-width: 520px;
+    color: var(--white-60);
+  }
+
+  .blog-card-read {
+    margin-top: auto;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .blog-card:hover {
+      background: var(--grey-50);
+      border-color: var(--white-40);
+    }
+
+    .blog-card-read span {
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    .blog-card:hover .blog-card-read span {
+      transform: translate(2px, -2px);
+    }
+  }
+
+  @media (max-width: 809px) {
+    .blog-card { min-height: 230px; }
+    .blog-card-link { padding: 20px; }
+    .blog-card-meta { flex-direction: column; gap: 4px; }
+    .blog-card-meta .caption:last-child { text-align: left; }
+  }
+</style>

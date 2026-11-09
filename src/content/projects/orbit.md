@@ -1,28 +1,28 @@
 ---
-title: "Start with a small action"
-category: "Pillar 3 · Small actions"
+title: "Klein anfangen"
+category: "Säule 3 · Kleine Schritte"
 order: 3
-pillar: "Small actions"
-principle: "Make the first step manageable on an ordinary day."
-practice: "Scale the habit down until it feels doable."
-overview: "A small action lowers the effort it takes to begin. It gives you a realistic way to practice the routine before you decide whether to make it longer or more challenging."
-challenge: "Ambitious plans can require more time, energy, or preparation than a typical day allows. Start with a version you can do even when conditions are not perfect."
+pillar: "Kleine Schritte"
+principle: "Mach den ersten Schritt so einfach, dass er in einen normalen Tag passt."
+practice: "Verkleinere den Anfang, bis er machbar erscheint."
+overview: "Ein kleiner Schritt senkt den Aufwand für den Anfang. So kannst du die Routine realistisch üben, bevor du entscheidest, ob du sie verlängern oder anspruchsvoller gestalten möchtest."
+challenge: "Ehrgeizige Vorhaben können mehr Zeit, Energie oder Vorbereitung beanspruchen, als im Alltag verfügbar ist. Fang mit einer Variante an, die auch dann möglich ist, wenn nicht alles ideal läuft."
 cover: /assets/project-orbit-cover.webp
-coverAlt: "A person preparing a yoga mat and exercise equipment"
+coverAlt: "Eine Person legt Yogamatte und Trainingsgeräte bereit"
 showcase: /assets/project-orbit-showcase.webp
-showcaseAlt: "Two people stretching in a sunlit studio"
+showcaseAlt: "Zwei Personen dehnen sich in einem sonnigen Studio"
 heroImage: /assets/hero-orbit.webp
-heroAlt: "A person preparing a yoga mat and exercise equipment"
+heroAlt: "Eine Person legt Yogamatte und Trainingsgeräte bereit"
 ---
 
-### Make the first step concrete
+### Mach den ersten Schritt konkret
 
-Turn a broad intention into one action you can start: open the book, put on your shoes, write one sentence, or take a few slow breaths.
+Mach aus einem allgemeinen Vorsatz eine Handlung, mit der du sofort anfangen kannst: Öffne das Buch, zieh deine Schuhe an, schreib einen Satz oder atme ein paar Mal tief durch.
 
-### Give yourself permission to stop there
+Erlaube dir, danach aufzuhören
 
-A small version is not a trick or a failure. It is a useful starting point that can help you practice in context. Some days you may want to continue; on other days, beginning is enough.
+Eine kleine Variante ist weder ein Trick noch ein Scheitern. Sie ist ein guter Anfang, mit dem du die Gewohnheit in deinem Alltag üben kannst. An manchen Tagen machst du vielleicht weiter, an anderen reicht es, überhaupt begonnen zu haben.
 
-### Expand only when it serves you
+### Erweitere die Handlung nur, wenn es dir guttut
 
-If the routine feels steady and you want to do more, add time or difficulty gradually. Keep the smaller version available for busy days.
+Wenn sich die Routine gefestigt hat und du mehr machen möchtest, steigere Dauer oder Anspruch nach und nach. Behalte die kleinere Variante für volle Tage bei.

@@ -49,7 +49,7 @@ const setOpen = (o: boolean) => {
   nav.setAttribute("aria-hidden", String(!o));
   nav.querySelectorAll("a").forEach((a) => a.setAttribute("tabindex", o ? "0" : "-1"));
   btn.setAttribute("aria-expanded", String(o));
-  btn.setAttribute("aria-label", o ? "Close menu" : "Open menu");
+  btn.setAttribute("aria-label", o ? "Menü schließen" : "Menü öffnen");
   iconOpen.style.opacity = o ? "0" : "1";
   iconClose.style.opacity = o ? "1" : "0";
   if (o) setHidden(0);

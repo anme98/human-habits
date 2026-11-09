@@ -1,28 +1,28 @@
 ---
-title: "Build your identity"
-category: "Pillar 1 · Identity"
+title: "Identität stärken"
+category: "Säule 1 · Identität"
 order: 1
-pillar: "Identity"
-principle: "Let everyday actions reflect who you want to become."
-practice: "Choose one small action that matches that direction."
-overview: "A lasting routine can start with a simple question: what kind of person do I want to be? Choose a behavior that expresses that value, then let each repetition reinforce the direction you are taking."
-challenge: "Big goals can feel distant, while identity gives a small action personal meaning. Focus on the practice you can do today rather than waiting to feel like a different person first."
+pillar: "Identität"
+principle: "Lass deine täglichen Handlungen zeigen, wer du sein möchtest."
+practice: "Wähle einen kleinen Schritt, der dich in diese Richtung bringt."
+overview: "Eine dauerhafte Routine kann mit einer einfachen Frage beginnen: Was für ein Mensch möchtest du sein? Wähle eine Handlung, die diesen Wunsch ausdrückt, und bestärke mit jeder Wiederholung deinen Weg."
+challenge: "Große Ziele wirken oft weit entfernt. Deine Identität gibt kleinen Handlungen persönliche Bedeutung. Konzentriere dich auf das, was du heute üben kannst, statt darauf zu warten, dich zuerst anders zu fühlen."
 cover: /assets/project-pace-cover.webp
-coverAlt: "A runner checking a fitness watch before exercising"
+coverAlt: "Eine Läuferin prüft vor dem Training ihre Sportuhr"
 showcase: /assets/project-pace-showcase.webp
-showcaseAlt: "A woman exercising on a treadmill"
+showcaseAlt: "Eine Frau trainiert auf einem Laufband"
 heroImage: /assets/hero-pace.webp
-heroAlt: "A runner checking a fitness watch before exercising"
+heroAlt: "Eine Läuferin prüft vor dem Training ihre Sportuhr"
 ---
 
-### Start with the person, not a perfect result
+### Denk zuerst an den Menschen, der du sein möchtest – nicht an ein perfektes Ergebnis
 
-Think about a quality you would like to practice: being curious, caring for your health, staying connected, or making time to learn. Then choose a small behavior that gives that quality room in your day.
+Überlege, welche Eigenschaft du stärken möchtest: neugierig sein, auf deine Gesundheit achten, Beziehungen pflegen oder dir Zeit zum Lernen nehmen. Wähle dann eine kleine Handlung, die dieser Eigenschaft in deinem Alltag Raum gibt.
 
-### Let actions become evidence
+### Lass deine Handlungen für dich sprechen
 
-Each time you take the action, you have a concrete example of practicing that identity. Missing an opportunity does not erase it; you can choose the next small action when it fits.
+Jedes Mal, wenn du die Handlung ausführst, lebst du deine gewünschte Identität ein Stück weit. Wenn du eine Gelegenheit verpasst, ist nichts verloren – beim nächsten passenden Moment kannst du den nächsten kleinen Schritt gehen.
 
-### Make it your own
+### Mach die Gewohnheit zu deiner eigenen
 
-Identity is personal, and it can change over time. Choose language and habits that feel true to you, rather than trying to fit someone else's idea of a successful routine.
+Identität ist persönlich und kann sich mit der Zeit verändern. Wähle Worte und Gewohnheiten, die sich für dich richtig anfühlen, statt dich an der Vorstellung anderer von einer erfolgreichen Routine zu orientieren.

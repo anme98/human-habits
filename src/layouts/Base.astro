@@ -15,7 +15,7 @@ interface Props {
 const defaultTitle = site.name;
 const {
   title = defaultTitle,
-  description = "A practical guide to building habits that fit real life. Start small, make the next step easier, and keep showing up.",
+  description = "Ein praktischer Leitfaden für Gewohnheiten, die in deinen Alltag passen. Fang klein an, mach den nächsten Schritt leichter und bleib dran.",
 } = Astro.props;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : null;
 const ogImage = canonical ? new URL("/assets/og.jpg", canonical) : null;
@@ -23,7 +23,7 @@ const analytics = import.meta.env.PUBLIC_VERCEL_ANALYTICS === "true";
 const storeBadge = import.meta.env.PUBLIC_STORE_BADGE === "true";
 ---
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -34,6 +34,7 @@ const storeBadge = import.meta.env.PUBLIC_STORE_BADGE === "true";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="theme-color" content="#121212" />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     {canonical && <meta property="og:url" content={canonical} />}
